@@ -21,7 +21,6 @@
 
 
 - Quantile Regression
-
 [https://www.kaggle.com/ulrich07/osic-multiple-quantile-regression-starter](https://www.kaggle.com/ulrich07/osic-multiple-quantile-regression-starter)
 
 - EfficientNets + Quantile Regression
