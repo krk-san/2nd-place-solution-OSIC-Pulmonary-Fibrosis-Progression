@@ -10,7 +10,7 @@
 
 ```quantile-regression-inference.ipynb``` - contains training and inference part with Quantile Regression model
 
-```train-efficientnet.ipynb``` - contains training part with Quantile Regression model
+```train-efficientnet.ipynb``` - contains training part with EfficientNetB3
 
 
 ## Acknowledgements
