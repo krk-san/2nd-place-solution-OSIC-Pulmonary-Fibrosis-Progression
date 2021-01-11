@@ -1,0 +1,44 @@
+{   
+    "PATH": {
+        "ROOT": "../input/",
+        "TRAIN_CSV_PATH": "../input/osic-pulmonary-fibrosis-progression/train.csv",
+        "TEST_CSV_PATH": "../input/osic-pulmonary-fibrosis-progression/test.csv",
+        "SAMPLESUB_CSV_PATH": "../input/osic-pulmonary-fibrosis-progression/sample_submission.csv",
+        "TRAIN_DATA_DIR": "../input/osic-pulmonary-fibrosis-progression/train/",
+        "TEST_DATA_DIR": "../input/osic-pulmonary-fibrosis-progression/test/",
+        "MASK_NOISE_DIR": "../input/osic-pulmonary-fibrosis-progression-lungs-mask/mask_noise/mask_noise/",
+        "TRAIN_MODEL_WEIGHTS_DIR": "../input/training-osic-2nd-place-code/"
+    },
+
+    "PARAMS": {
+        "MODELS_EFF": [0],
+        "WEIGHT_EFF": 0.2,
+        "NFOLDS": 4,
+        "BATCH_SIZE": 128,
+        "EPOCHS": 300,
+        "EARLY_STOPPING": 150,
+        "NUM_LAST_FVC": 2,
+        "QS1": 0.2,
+        "QS2": 0.5,
+        "QS3": 0.8
+    },
+
+    "PARAMS_TRAIN_EFF": {
+        "EPOCHS": 50,
+        "BATCH_SIZE": 8,
+        "NFOLDS": 5,
+        "LR": 0.003,
+        "MODEL_CLASS": "b3"
+    },
+
+    "FEATURES": ["Sex_Female", 
+                 "Sex_Male", 
+                 "SmokingStatus_Currently smokes", 
+                 "SmokingStatus_Ex-smoker", 
+                 "SmokingStatus_Never smoked", 
+                 "age", 
+                 "percent", 
+                 "week", 
+                 "min_fvc"
+    ]
+}
